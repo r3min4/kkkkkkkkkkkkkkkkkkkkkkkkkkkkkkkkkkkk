@@ -1,0 +1,21 @@
+int i = int.Parse(Console.ReadLine());
+
+if( i >= 18){
+
+Console.WriteLine("Voce é maior de idade!!! Já consegue votar e
+
+dirigir.");
+
+}
+
+else if ( i >= 16 && i < 18){
+
+Console.WriteLine("Você é de menor!!! Mas ja pode votar.");
+
+}
+
+else {
+
+Console.WriteLine("Menor de idade, nao pode votar nem dirigir");
+
+}
