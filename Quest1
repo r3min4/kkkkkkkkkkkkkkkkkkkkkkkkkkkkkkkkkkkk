@@ -1,0 +1,9 @@
+        int idade = 30;
+        float altura = 1.75f;
+        string nome = "João";
+        bool ehEstudante = true;
+
+       Console.WriteLine($"Nome: {nome}");
+        Console.WriteLine($"Idade: {idade}");
+        Console.WriteLine($"Altura: {altura}");
+        Console.WriteLine($"É estudante? {ehEstudante}");
